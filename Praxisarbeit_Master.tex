@@ -1,3 +1,7 @@
+% !TeX root = Praxisarbeit_Master.tex
+% !TeX program = xelatex
+% !BIB program = biber
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% 2020-06-20
 %% Descr:       Hauptdatei für die Projektarbeit / Bachelorarbeit
@@ -13,14 +17,10 @@
 \begin{document}
 \thispagestyle{empty}
 \input{text/template/titlepage}
-\pagenumbering{Roman}
 \pagestyle{fancy}
 \fancyhead{}
 \fancyfoot{}
 \fancyfoot[R]{\footer}
-\newpage
-
-\input{text/template/declaration}
 \newpage
 
 \ifblockingnotice
@@ -28,8 +28,13 @@
 \newpage
 \fi
 
+\input{text/template/declaration}
+\newpage
+
 \input{text/abstract}
 \newpage
+
+\pagenumbering{Roman}
 
 \tableofcontents
 \newpage
@@ -66,7 +71,6 @@
 \label{pagesForDeclaration}
 
 \clearpage
-\pagenumbering{Roman}
 \setcounter{page}{\value{pageNumber}}
 
 \input{text/template/references}

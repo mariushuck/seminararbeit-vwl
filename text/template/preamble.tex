@@ -12,7 +12,7 @@
 \setdefaultlanguage[spelling=new, babelshorthands=true]{german}
 
 % Seitenränder
-\usepackage[left=3.5cm, right=2.5cm, head=1.25cm, bottom=2cm, foot=1.25cm, includefoot]{geometry}
+\usepackage[left=3.5cm, right=2.5cm, head=1.25cm, bottom=2cm, foot=1.25cm, includefoot, top=2.5cm]{geometry}
 
 % Abkürzungsverzeichnis
 \usepackage[printonlyused]{acronym}
@@ -39,8 +39,8 @@
 
 % Schriftart Carlito. Sie ist fast identisch mit Calibri.
 % Calibri ist auf Linux und MacOS nicht verfügbar. 
-\usepackage{carlito}
-\setmainfont{carlito}
+% \usepackage{carlito}
+\setmainfont{Carlito}
 
 % Fußzeile und Kopfzeile
 \usepackage{fancyhdr}
@@ -61,6 +61,9 @@
 % Zeilenabstand: 1.5
 \usepackage{setspace}
 \setstretch{1.5}
+
+% Abstand zwischen Absätzen
+\setlength{\parskip}{6pt}
 
 % Literaturverzeichnis
 \usepackage[natbib=true, backend=biber, style=authoryear, dashed=false]{biblatex}
