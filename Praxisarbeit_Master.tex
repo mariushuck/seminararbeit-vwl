@@ -15,26 +15,33 @@
 \input{text/template/preamble}
 
 \begin{document}
-\thispagestyle{empty}
+
+% Titelseite (Keine Seitenzahl)
 \input{text/template/titlepage}
+\thispagestyle{empty}
+\newpage
+
+% Sperrvermerk (Keine Seitenzahl)
+\ifblockingnotice
+\input{text/template/blockingNotice}
+\thispagestyle{empty}
+\newpage
+\fi
+
+% Erklärung (Keine Seitenzahl)
+\input{text/template/declaration}
+\thispagestyle{empty}
+\newpage
+
+% Ab hier: Römische Seitenzahlen (I, II, III...)
+\pagenumbering{Roman}
 \pagestyle{fancy}
 \fancyhead{}
 \fancyfoot{}
 \fancyfoot[R]{\footer}
-\newpage
-
-\ifblockingnotice
-\input{text/template/blockingNotice}
-\newpage
-\fi
-
-\input{text/template/declaration}
-\newpage
 
 \input{text/abstract}
 \newpage
-
-\pagenumbering{Roman}
 
 \tableofcontents
 \newpage
@@ -47,12 +54,14 @@
 
 \listoftables
 \newpage
-
 \clearpage
-\setcounter{pageNumber}{\value{page}}
-\pagenumbering{arabic}
 
+% Ab hier: Arabische Seitenzahlen (1, 2, 3...)
+\pagenumbering{arabic}
 \rowcolors{1}{tableOdd}{tableEven}
+
+% -----------------------------------------------------
+% Hier sind die Kapitel.
 
 % -----------------------------------------------------
 % Hier sind die Kapitel.
@@ -69,9 +78,7 @@
 % -----------------------------------------------------
 
 \label{pagesForDeclaration}
-
 \clearpage
-\setcounter{page}{\value{pageNumber}}
 
 \input{text/template/references}
 \newpage

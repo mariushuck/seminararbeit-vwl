@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.3.22)  22 MAR 2026 19:21
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.3.22)  22 MAR 2026 19:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -728,24 +728,19 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 22.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 22.
-
-Overfull \hbox (4.88892pt too wide) in paragraph at lines 22--26
-[][] 
- []
-
-) [4] (./text/abstract.tex) [5] (./Praxisarbeit_Master.toc)
+) [4] (./text/abstract.tex) [1] (./Praxisarbeit_Master.toc)
 \tf@toc=\write5
 \openout5 = `Praxisarbeit_Master.toc'.
 
- [1] [2] (./text/acronym.tex) [3] (./Praxisarbeit_Master.lof)
+ [2] [3] (./text/acronym.tex) [4] (./Praxisarbeit_Master.lof)
 \tf@lof=\write6
 \openout6 = `Praxisarbeit_Master.lof'.
 
- [4] (./Praxisarbeit_Master.lot)
+ [5] (./Praxisarbeit_Master.lot)
 \tf@lot=\write7
 \openout7 = `Praxisarbeit_Master.lot'.
 
- [5] (./text/chapter1.tex
+ [6] (./text/chapter1.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -768,9 +763,9 @@ Overfull \hbox (21.84177pt too wide) in paragraph at lines 10--10
 [][]\TU/Carlito(0)/m/n/12 o.V. (2018). „  Der unkontrollierte Boom“. In: \TU/Carlito(0)/m/it/12 Wirtschaftswoche \TU/Carlito(0)/m/n/12 (2018), Heft 15 vom 06.04.2018. 
  []
 
-) [6
+) [8
 
-] (./text/appendix.tex) [7] (./Praxisarbeit_Master.aux)
+] (./text/appendix.tex) [9] (./Praxisarbeit_Master.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -784,10 +779,10 @@ Package logreq Info: Writing requests to 'Praxisarbeit_Master.run.xml'.
 Here is how much of TeX's memory you used:
  22012 strings out of 468168
  436993 string characters out of 5432815
- 1374184 words of memory out of 5000000
+ 1374168 words of memory out of 5000000
  50445 multiletter control sequences out of 15000+600000
  631931 words of font info for 78 fonts, out of 8000000 for 9000
  1350 hyphenation exceptions out of 8191
- 78i,11n,96p,749b,5447s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 78i,11n,96p,749b,5445s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on Praxisarbeit_Master.pdf (19 pages).
